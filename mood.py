@@ -3,7 +3,7 @@
 #Homework 7.1: The mood checker
 
 mood = input("Hello!\nHow are you today?\n")
-#mood = mood
+
 if mood.lower() == "happy":
     print("It is great to see you happy!")
 elif mood.lower() == "nervous":
