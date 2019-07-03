@@ -12,7 +12,7 @@ def is_number(num):
 
 
 def calc_km_miles(km):
-    miles = float(km) * 0.62137
+    miles = float(km.replace(",", ".")) * 0.62137
     return miles
 
 
