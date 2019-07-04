@@ -8,7 +8,7 @@ import json
 
 secret = random.randint(1, 20)
 attempts = 0
-score = {}
+# score = {}
 
 name = input("Who is playing?: ")
 
@@ -48,5 +48,5 @@ for guessesTaken in range(1, 7):
 if guess != secret:
     print("Sorry. The number I was thinking of was: " + str(secret))
 
-for key, value in score.items():
-    print(key, value, end=" ")
+# for key, value in score.items():
+#     print(key, value, end=" ")
